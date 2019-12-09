@@ -1,0 +1,6 @@
+SET HTTP_PROXY=http://10.61.57.21:3128
+SET HTTPS_PROXY=https://10.61.57.21:3128
+
+rails generate redmine_plugin Polls
+
+gem install mysql2 -- '--with-mysql-lib="C:\Program Files\MySQL\MySQL Server 8.0\lib" --with-mysql-include="C:\Program Files\MySQL\MySQL Server 8.0\include"'
